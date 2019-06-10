@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flappy bird 2.0</title>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        canvas {
+            border:5px solid #FFFFFF;
+            /*background-color: #FF00F3;
+
+             */
+
+        }
+
+    </style>
+</head>
+<body onload="startGame()"
+background="ccc.gif">
+<br>
+<button type="button" class="btn btn-primary btn-lg btn-block" onmousedown="accelerate(-0.3)" onmouseup="accelerate(0.02)">BOOST</button>
+<button type="button" class="btn btn-primary btn-lg btn-block" onmousedown= reset2()>change current game to challenge mode </button>
+
+</body>
+</html>
